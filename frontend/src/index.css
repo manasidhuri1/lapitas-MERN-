@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #dfdfdf;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+*,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 3.8rem;
+}
+h2 {
+  font-size: 2.8rem;
+}
+p {
+  font-size: 1.2rem;
+}
+h6 {
+  font-size: 1rem;
+}
+:root {
+  --middleGreen: #9ebe21;
+  --darkGreen: #728f01;
+  --lightGreen: #cfdfae;
+  --deepBlue: #38454f;
+
+  --seaBlue: #526666;
+  --greyBlue: #798e8f;
+  --greyBlueLight: #798e8f16;
+  --greyBlue30: #798e8f4d;
+  --darkGrey: #3a3a3a;
+  --mediumGrey: #898989;
+  --grey20: #c2c2c2;
+  --lightGrey: #e2e2e2;
+  --grey5: #efefef;
+  --white: #ffffff;
+  --black: #000000;
+  --middleGrey: #a6a6a6;
+  --greyBorder: #f0f0f0;
+  --grey: #e4e8e9;
+  --lightWhite: #f7f7f7;
+  --lightWhite50: #f7f7f780;
+  --midWhite: #f2f4f4;
+  --scrollbarColor: #c4c4c4;
+  --sliderColor: #161616;
+  --sliderThumbColor: #a5a5a5;
+  --notebackground: #454545;
+  --highlightGrey: #b7c2c3;
+
+  --yellow: #f8e32a;
+  --darkYellow: #f1c93b;
+  --mediumYellow: #fbaa0d;
+  --deepPurple: #664078;
+  --darkPurple50: #ba80d680;
+  --limeGreen: #b3db1a;
+
+  --red: #eb5757;
+
+  --snapGreen: #83a600;
+  --sapGreen: #728f01;
+
+  --darkWhite: #e1e5e5;
+
+  --primaryColor: var(--middleGreen);
+  --secondaryColor: var(--deepBlue);
+  --ternaryColor: var(--seaBlue);
+  --quadColor: var(--greyBlue);
+
+  --adminBackground: var(--grey5);
+
+  --headingColor: var(--ternaryColor);
+
+  --borderColor: var(--grey5);
+  --darkBorderColor: var(--lightGrey);
+
+  --textColor: var(--quadColor);
+  --paraColor: var(--darkGrey);
+
+  --sideNavColor: var(--grey20);
+  --navActive: var(--quadColor);
+
+  --labelColor: var(--quadColor);
+  --inputColor: var(--quadColor);
+  --errorColor: var(--red);
+
+  --progressColor: var(--deepPurple);
+
+  --borderRadius: 1.5rem;
+}
